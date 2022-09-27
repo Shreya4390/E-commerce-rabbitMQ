@@ -13,7 +13,7 @@ connect()
 
 async function connect() {
   try {
-    const amqpServer = 'amqps://snadkezc:c6U-9h0F1m4WJVJw6DKhvzzgbKmYopZP@puffin.rmq2.cloudamqp.com/snadkezc';
+    const amqpServer = '';
     // Create amqp connection and is there any error then exit with error.
     connection = await amqplib.connect(amqpServer)
     // To send, we must declare a queue for us to send to; then we can publish a message to the queue
